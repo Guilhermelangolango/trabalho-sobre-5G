@@ -1,0 +1,149 @@
+h1 {
+    font-size: 50px;
+    color: #000000;
+   font-family: serif;
+} 
+p{
+        font-size: 20px;
+    color: #000000;
+    font-family: serif;
+}
+img {
+    width: 1000px;
+}
+.small {
+    width: 500px;
+    height: 300px;
+}
+.medium {
+    width: 600px;
+    height: 400px;
+}
+.big {
+    width: 900px;
+    height: 700px;
+}
+.menu {
+    width: 960px;
+    height: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.banner {
+    width: 960px;
+    height: 410px;
+    background-image: url(./image/5g\ image.jfif);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    font-size: smaller;
+    background-repeat: no-repeat;
+    background-size: 960px 410px;
+    
+}
+.complemento {
+    width: 960px;
+    height: 960px;
+    display:flex;
+    border-radius: 10px;
+    display:block;
+}
+.sobre {
+    width: 800px;
+    height: 320px;
+    padding: 10px;
+    margin: 10px 5px 10px 10px;
+    border-radius: 10px;
+}
+.portfolio {
+    width: 800px;
+    height: 320px;
+    
+    
+    border-radius: 10px;
+    
+    
+    
+
+}
+.imagem {
+    width: 1060px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    justify-content: flex-end;
+    transition: all 400ms ease-in;
+    color: #000000;
+    background-color: #2dc0fd
+    
+}
+
+a:hover{
+    padding: 15px;
+    background-color:rgba(184,0,255,1)
+    
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(184,0,255);
+    background: linear-gradient(90deg, rgb(165, 165, 165) 0%, rgb(125, 103, 224) 47%, rgb(141, 203, 230) 73%);
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+   
+  
+}
+li{
+   float: left;
+   margin: 10px;
+   
+}
+.menu h1{
+    display: flex;
+}
+.complemento a{
+    background-color: rgba(184,0,255,1)
+}
+.complemento a:hover{
+    background-color: #2dc0fd;
+}
+.banner img{
+    width: 300px;
+    height: 350px;
+}
+.desc{
+    width: 528px;
+    padding: 40px;
+    
+}
+.banner a{
+    background-color: rgb(91, 58, 209);
+    text-decoration: underline;
+}
+.banner a:hover{
+    padding: 15px;
+    background-color: #2dc0fd;
+    
+}
+.CONTAINER{
+    width: 960px;
+    height: 960px;
+    display:flex;
+    border-radius: 10px;
+    display:block;
+}
